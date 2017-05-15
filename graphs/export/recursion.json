@@ -1,0 +1,47 @@
+{
+  "meta": {
+    "host": "https://www.schesign.com",
+    "resource": "o/tests/recursion/master",
+    "designsAccessed": [
+      "o/tests/recursion"
+    ]
+  },
+  "graph": [
+    {
+      "type": "Class",
+      "uid": "o/tests/recursion/master/class/class1",
+      "label": "Class1",
+      "description": null,
+      "subClassOf": null,
+      "propertySpecs": [
+        {
+          "ref": "o/tests/recursion/master/property/property_a",
+          "minItems": 0,
+          "maxItems": 1,
+          "index": false,
+          "primaryKey": false,
+          "unique": false
+        }
+      ]
+    },
+    {
+      "type": "Property",
+      "uid": "o/tests/recursion/master/property/property_a",
+      "label": "property_a",
+      "description": null,
+      "range": {
+        "propertySpecs": [
+          {
+            "unique": false,
+            "primaryKey": false,
+            "index": false,
+            "maxItems": 1,
+            "minItems": 0,
+            "ref": "o/tests/recursion/master/property/property_a"
+          }
+        ],
+        "type": "NestedObject"
+      }
+    }
+  ]
+}

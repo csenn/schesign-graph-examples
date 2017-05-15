@@ -1,13 +1,19 @@
 ### Central locations for graphs used for testing
-Import graphs are raw graphs that can be uploaded as a design. Export graphs are what are returned
-when a design is downloaded. The 2 will not be identical. Import graphs can point to nodes
+Import graphs are raw graphs that can be uploaded as a design.
+Export graphs are what are returned when a design is downloaded.
+
+The 2 will not be identical.
+
+*** Fix, this is not longer true ***
+Import graphs can point to nodes
 in other designs using a url identifier. An export graph will contain the evaluation of those urls. Also
 new nodes in an import graph will not have uids yet.
+******
 
 #### propertyVariations
-
-There should be at least on of every property type here
-
+One of every propertySpec constraint
+One of every rangeType
+One of every rangeConstraint
 
 #### testInhertiance
 

@@ -3,9 +3,9 @@
     {
       "type": "Class",
       "label": "class1",
-      "propertyRefs": [
-        { "ref": "a",  "cardinality": { "minItems": 0, "maxItems": 1 } },
-        { "ref": "a1",  "cardinality": { "minItems": 0, "maxItems": 1 } }
+      "propertySpecs": [
+        { "ref": "a" },
+        { "ref": "a1" }
       ]
     },
     {
@@ -13,16 +13,16 @@
       "label": "class2",
       "subClassOf": "class1",
       "excludeParentProperties": ["a1"],
-      "propertyRefs": [
-        { "ref": "b",  "cardinality": { "minItems": 0, "maxItems": 1 } }
+      "propertySpecs": [
+        { "ref": "b" }
       ]
     },
     {
       "type": "Class",
       "label": "class3",
       "subClassOf": "class2",
-      "propertyRefs": [
-        { "ref": "c",  "cardinality": { "minItems": 0, "maxItems": 1 } }
+      "propertySpecs": [
+        { "ref": "c" }
       ]
     },
     {

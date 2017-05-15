@@ -3,24 +3,18 @@
     {
       "type": "Class",
       "label": "class3",
-      "propertyRefs": [
-        {
-          "ref": "https://www.schesign.com/o/tests/linked_nodes_1/0.1.0/property/a",
-          "cardinality": { "minItems": 0, "maxItems": 1 }
-        },
-        { "ref": "c", "cardinality": { "minItems": 0, "maxItems": 1 } },
-        { "ref": "d", "cardinality": { "minItems": 0, "maxItems": 1 } }
+      "propertySpecs": [
+        { "ref": "o/tests/linked_nodes_1/0.1.0/property/a" },
+        { "ref": "c" },
+        { "ref": "d" }
       ]
     },
     {
       "type": "Class",
       "label": "class4",
-      "propertyRefs": [
-        {
-          "ref": "https://www.schesign.com/o/tests/linked_nodes_1/0.1.0/property/a",
-          "cardinality": { "minItems": 0, "maxItems": 1 }
-        },
-        { "ref": "e", "cardinality": { "minItems": 0, "maxItems": 1 } }
+      "propertySpecs": [
+        { "ref": "o/tests/linked_nodes_1/0.1.0/property/a" },
+        { "ref": "e" }
       ]
     },
     {
@@ -28,7 +22,7 @@
       "label": "c",
       "range": {
         "type": "LinkedClass",
-        "ref": "https://www.schesign.com/o/tests/linked_nodes_1/0.1.0/class/class2"
+        "ref": "o/tests/linked_nodes_1/0.1.0/class/class2"
       }
     },
     {

@@ -1,0 +1,21 @@
+{
+  "graph": [
+    {
+      "type": "Class",
+      "label": "Class1",
+      "propertySpecs": [
+        { "ref": "property_a" }
+      ]
+    },
+    {
+      "type": "Property",
+      "label": "property_a",
+      "range": {
+        "type": "NestedObject",
+        "propertySpecs": [
+          { "ref": "property_a" }
+        ]
+      }
+    }
+  ]
+}

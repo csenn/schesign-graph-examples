@@ -3,17 +3,17 @@
     {
       "type": "Class",
       "label": "class1",
-      "propertyRefs": [
-        { "ref": "a", "cardinality": { "minItems": 0, "maxItems": 1 } },
-        { "ref": "b", "cardinality": { "minItems": 0, "maxItems": 1 } }
+      "propertySpecs": [
+        { "ref": "a" },
+        { "ref": "b" }
       ]
     },
     {
       "type": "Class",
       "label": "class2",
-      "propertyRefs": [
-        { "ref": "a", "cardinality": { "minItems": 0, "maxItems": 1 } },
-        { "ref": "c", "cardinality": { "minItems": 0, "maxItems": 1 } }
+      "propertySpecs": [
+        { "ref": "a" },
+        { "ref": "c" }
       ]
     },
     {

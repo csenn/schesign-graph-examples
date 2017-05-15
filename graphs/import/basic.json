@@ -1,0 +1,26 @@
+{
+  "graph": [
+    {
+      "type": "Class",
+      "label": "class_a",
+      "description": "First Description",
+      "propertySpecs": [
+        { "ref": "property_a" }
+      ]
+    },
+    {
+      "type": "Property",
+      "label": "property_a",
+      "range": {
+        "type": "Text"
+      }
+    },
+    {
+      "type": "Property",
+      "label": "property_b",
+      "range": {
+        "type": "Boolean"
+      }
+    }
+  ]
+}

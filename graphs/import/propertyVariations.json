@@ -4,210 +4,102 @@
       "type": "Class",
       "label": "class1",
       "description": "First Description",
-      "propertyRefs": [
+      "propertySpecs": [
         {
-          "ref": "a",
-          "cardinality": {
-            "minItems": 0,
-            "maxItems": 1
-          }
+          "ref": "a"
         },
         {
           "ref": "a1",
-          "cardinality": {
-            "minItems": 0,
-            "maxItems": 1
-          }
+          "minItems": 1,
+          "maxItems": null
         },
         {
-          "ref": "b",
-          "cardinality": {
-            "minItems": 1,
-            "maxItems": 1
-          }
+          "ref": "a2",
+          "minItems": 5,
+          "maxItems": 10
+
         },
         {
-          "ref": "c",
-          "cardinality": {
-            "minItems": 0,
-            "maxItems": null
-          }
+          "ref": "a3",
+          "primaryKey": true
         },
         {
-          "ref": "d",
-          "cardinality": {
-            "minItems": 0,
-            "maxItems": 1
-          }
+          "ref": "a4",
+          "index": true
         },
         {
-          "ref": "e",
-          "cardinality": {
-            "minItems": 0,
-            "maxItems": 1
-          }
+          "ref": "a5",
+          "unique": true
         },
         {
-          "ref": "f",
-          "cardinality": {
-            "minItems": 0,
-            "maxItems": 1
-          }
+          "ref": "b"
         },
         {
-          "ref": "g",
-          "cardinality": {
-            "minItems": 0,
-            "maxItems": 1
-          }
+          "ref": "b1"
         },
         {
-          "ref": "g1",
-          "cardinality": {
-            "minItems": 0,
-            "maxItems": 1
-          }
+          "ref": "b2"
         },
         {
-          "ref": "g2",
-          "cardinality": {
-            "minItems": 0,
-            "maxItems": 1
-          }
+          "ref": "b3"
         },
         {
-          "ref": "h",
-          "cardinality": {
-            "minItems": 0,
-            "maxItems": 1
-          }
+          "ref": "b4"
         },
         {
-          "ref": "i",
-          "cardinality": {
-            "minItems": 0,
-            "maxItems": 1
-          }
+          "ref": "b5"
         },
         {
-          "ref": "j",
-          "cardinality": {
-            "minItems": 0,
-            "maxItems": 1
-          }
+          "ref": "c"
         },
         {
-          "ref": "k",
-          "cardinality": {
-            "minItems": 0,
-            "maxItems": 1
-          }
+          "ref": "c1"
         },
         {
-          "ref": "l",
-          "cardinality": {
-            "minItems": 0,
-            "maxItems": 1
-          }
+          "ref": "c2"
         },
         {
-          "ref": "m",
-          "cardinality": {
-            "minItems": 0,
-            "maxItems": 1
-          }
+          "ref": "c3"
         },
         {
-          "ref": "n",
-          "cardinality": {
-            "minItems": 0,
-            "maxItems": 1
-          }
+          "ref": "c4"
         },
         {
-          "ref": "o",
-          "cardinality": {
-            "minItems": 0,
-            "maxItems": 1
-          }
+          "ref": "c5"
         },
         {
-          "ref": "p",
-          "cardinality": {
-            "minItems": 0,
-            "maxItems": 1
-          }
+          "ref": "c6"
         },
         {
-          "ref": "q",
-          "cardinality": {
-            "minItems": 0,
-            "maxItems": 1
-          }
+          "ref": "c7"
         },
         {
-          "ref": "r",
-          "cardinality": {
-            "minItems": 0,
-            "maxItems": 1
-          }
+          "ref": "c8"
         },
         {
-          "ref": "s",
-          "cardinality": {
-            "minItems": 0,
-            "maxItems": 1
-          }
+          "ref": "d"
         },
         {
-          "ref": "s1",
-          "cardinality": {
-            "minItems": 0,
-            "maxItems": 1
-          }
+          "ref": "e"
         },
         {
-          "ref": "s2",
-          "cardinality": {
-            "minItems": 0,
-            "maxItems": 1
-          }
+          "ref": "e1"
         },
         {
-          "ref": "s3",
-          "cardinality": {
-            "minItems": 0,
-            "maxItems": 1
-          }
+          "ref": "e2"
         },
         {
-          "ref": "t",
-          "cardinality": {
-            "minItems": 0,
-            "maxItems": 1
-          }
+          "ref": "f"
         },
         {
-          "ref": "x",
-          "cardinality": {
-            "minItems": 0,
-            "maxItems": 1
-          }
+          "ref": "g"
         }
       ]
     },
     {
       "type": "Class",
       "label": "class2",
-      "propertyRefs": [
-        {
-          "ref": "y",
-          "cardinality": {
-            "minItems": 0,
-            "maxItems": 1
-          }
-        }
-      ]
+      "propertySpecs": []
     },
     {
       "type": "Property",
@@ -220,7 +112,35 @@
       "type": "Property",
       "label": "a1",
       "range": {
-        "type": "Text"
+        "type": "Boolean"
+      }
+    },
+    {
+      "type": "Property",
+      "label": "a2",
+      "range": {
+        "type": "Boolean"
+      }
+    },
+    {
+      "type": "Property",
+      "label": "a3",
+      "range": {
+        "type": "Boolean"
+      }
+    },
+    {
+      "type": "Property",
+      "label": "a4",
+      "range": {
+        "type": "Boolean"
+      }
+    },
+    {
+      "type": "Property",
+      "label": "a5",
+      "range": {
+        "type": "Boolean"
       }
     },
     {
@@ -232,38 +152,7 @@
     },
     {
       "type": "Property",
-      "label": "c",
-      "range": {
-        "type": "Text"
-      }
-    },
-    {
-      "type": "Property",
-      "label": "d",
-      "range": {
-        "type": "Text",
-        "format": "Url"
-      }
-    },
-    {
-      "type": "Property",
-      "label": "e",
-      "range": {
-        "type": "Text",
-        "format": "Email"
-      }
-    },
-    {
-      "type": "Property",
-      "label": "f",
-      "range": {
-        "type": "Text",
-        "format": "Hostname"
-      }
-    },
-    {
-      "type": "Property",
-      "label": "g",
+      "label": "b1",
       "range": {
         "type": "Text",
         "regex": "[a-z]"
@@ -271,15 +160,7 @@
     },
     {
       "type": "Property",
-      "label": "g1",
-      "range": {
-        "type": "Text",
-        "minLength": 0
-      }
-    },
-    {
-      "type": "Property",
-      "label": "g2",
+      "label": "b2",
       "range": {
         "type": "Text",
         "minLength": 0,
@@ -288,78 +169,38 @@
     },
     {
       "type": "Property",
-      "label": "h",
+      "label": "b3",
+      "range": {
+        "type": "Text",
+        "format": "Url"
+      }
+    },
+    {
+      "type": "Property",
+      "label": "b4",
+      "range": {
+        "type": "Text",
+        "format": "Email"
+      }
+    },
+    {
+      "type": "Property",
+      "label": "b5",
+      "range": {
+        "type": "Text",
+        "format": "Hostname"
+      }
+    },
+    {
+      "type": "Property",
+      "label": "c",
       "range": {
         "type": "Number"
       }
     },
     {
       "type": "Property",
-      "label": "i",
-      "range": {
-        "type": "Number",
-        "format": "Int"
-      }
-    },
-    {
-      "type": "Property",
-      "label": "j",
-      "range": {
-        "type": "Number",
-        "format": "Int8"
-      }
-    },
-    {
-      "type": "Property",
-      "label": "k",
-      "range": {
-        "type": "Number",
-        "format": "Int16"
-      }
-    },
-    {
-      "type": "Property",
-      "label": "l",
-      "range": {
-        "type": "Number",
-        "format": "Int32"
-      }
-    },
-    {
-      "type": "Property",
-      "label": "m",
-      "range": {
-        "type": "Number",
-        "format": "Int64"
-      }
-    },
-    {
-      "type": "Property",
-      "label": "n",
-      "range": {
-        "type": "Number",
-        "format": "Float32"
-      }
-    },
-    {
-      "type": "Property",
-      "label": "o",
-      "range": {
-        "type": "Number",
-        "format": "Float64"
-      }
-    },
-    {
-      "type": "Property",
-      "label": "p",
-      "range": {
-        "type": "Number",
-        "min": 0
-      }
-    },
-    {
-      "type": "Property",
-      "label": "q",
+      "label": "c1",
       "range": {
         "type": "Number",
         "min": 0,
@@ -368,7 +209,63 @@
     },
     {
       "type": "Property",
-      "label": "r",
+      "label": "c2",
+      "range": {
+        "type": "Number",
+        "format": "Int"
+      }
+    },
+    {
+      "type": "Property",
+      "label": "c3",
+      "range": {
+        "type": "Number",
+        "format": "Int8"
+      }
+    },
+    {
+      "type": "Property",
+      "label": "c4",
+      "range": {
+        "type": "Number",
+        "format": "Int16"
+      }
+    },
+    {
+      "type": "Property",
+      "label": "c5",
+      "range": {
+        "type": "Number",
+        "format": "Int32"
+      }
+    },
+    {
+      "type": "Property",
+      "label": "c6",
+      "range": {
+        "type": "Number",
+        "format": "Int64"
+      }
+    },
+    {
+      "type": "Property",
+      "label": "c7",
+      "range": {
+        "type": "Number",
+        "format": "Float32"
+      }
+    },
+    {
+      "type": "Property",
+      "label": "c8",
+      "range": {
+        "type": "Number",
+        "format": "Float64"
+      }
+    },
+    {
+      "type": "Property",
+      "label": "d",
       "range": {
         "type": "Enum",
         "values": [
@@ -381,7 +278,7 @@
     },
     {
       "type": "Property",
-      "label": "s",
+      "label": "e",
       "range": {
         "type": "Date",
         "format": "DateTime"
@@ -389,7 +286,7 @@
     },
     {
       "type": "Property",
-      "label": "s1",
+      "label": "e1",
       "range": {
         "type": "Date",
         "format": "ShortDate"
@@ -397,15 +294,7 @@
     },
     {
       "type": "Property",
-      "label": "s2",
-      "range": {
-        "type": "Date",
-        "format": "DateTime"
-      }
-    },
-    {
-      "type": "Property",
-      "label": "s3",
+      "label": "e2",
       "range": {
         "type": "Date",
         "format": "Time"
@@ -413,70 +302,37 @@
     },
     {
       "type": "Property",
-      "label": "t",
+      "label": "f",
       "range": {
         "type": "NestedObject",
-        "propertyRefs": [
+        "propertySpecs": [
           {
-            "ref": "u",
-            "cardinality": {
-              "minItems": 0,
-              "maxItems": 1
-            }
+            "ref": "a"
           },
           {
-            "ref": "v",
-            "cardinality": {
-              "minItems": 0,
-              "maxItems": 1
-            }
+            "ref": "f1"
           }
         ]
       }
     },
     {
       "type": "Property",
-      "label": "u",
-      "range": {
-        "type": "Text"
-      }
-    },
-    {
-      "type": "Property",
-      "label": "v",
+      "label": "f1",
       "range": {
         "type": "NestedObject",
-        "propertyRefs": [
+        "propertySpecs": [
           {
-            "ref": "w",
-            "cardinality": {
-              "minItems": 0,
-              "maxItems": 1
-            }
+            "ref": "a"
           }
         ]
       }
     },
     {
       "type": "Property",
-      "label": "w",
-      "range": {
-        "type": "Text"
-      }
-    },
-    {
-      "type": "Property",
-      "label": "x",
+      "label": "g",
       "range": {
         "type": "LinkedClass",
         "ref": "class2"
-      }
-    },
-    {
-      "type": "Property",
-      "label": "y",
-      "range": {
-        "type": "Text"
       }
     }
   ]
