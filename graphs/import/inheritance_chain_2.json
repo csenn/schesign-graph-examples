@@ -5,8 +5,8 @@
       "label": "class4",
       "subClassOf": "o/tests/inheritance_chain_1/0.1.0/class/class3",
       "propertySpecs": [
-        { "ref": "d" },
-        { "ref": "a" }
+        { "ref": "a" },
+        { "ref": "d" }
       ]
     },
     {

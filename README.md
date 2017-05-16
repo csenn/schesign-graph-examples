@@ -19,7 +19,7 @@ One of every rangeConstraint
 
 * 2 different designs are used to test inheritance chain.
 * Exclude parent properties should be tested
-* Property "a" is in parent design and child design, exports should use "a" lowest in the chain. (Boolean instead of Text)
+* Override property should be tested. Property "a" is in parent design and child design, exports should use "a" lowest in the chain. (Boolean instead of Text)
 
 
 #### testLinking
