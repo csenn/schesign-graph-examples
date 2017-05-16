@@ -79,7 +79,7 @@
       "subClassOf": "o/tests/inheritance_chain_1/0.1.0/class/class3",
       "propertySpecs": [
         {
-          "ref": "o/tests/inheritance_chain_2/master/property/d",
+          "ref": "o/tests/inheritance_chain_2/master/property/a",
           "required": false,
           "array": false,
           "index": false,
@@ -87,13 +87,13 @@
           "unique": false
         },
         {
-          "ref": "o/tests/inheritance_chain_2/master/property/a",
+          "ref": "o/tests/inheritance_chain_2/master/property/d",
           "required": false,
           "array": false,
           "index": false,
           "primaryKey": false,
           "unique": false
-        }
+        },
       ],
       "excludeParentProperties": []
     },
