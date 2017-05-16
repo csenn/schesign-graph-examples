@@ -12,21 +12,21 @@
       "type": "Class",
       "uid": "o/tests/linked_nodes_1/0.1.0/class/class1",
       "label": "class1",
-      "description": null,
+      "description": "",
       "subClassOf": null,
       "propertySpecs": [
         {
           "ref": "o/tests/linked_nodes_1/0.1.0/property/a",
-          "minItems": 0,
-          "maxItems": 1,
+          "required": false,
+          "array": false,
           "index": false,
           "primaryKey": false,
           "unique": false
         },
         {
           "ref": "o/tests/linked_nodes_1/0.1.0/property/b",
-          "minItems": 0,
-          "maxItems": 1,
+          "required": false,
+          "array": false,
           "index": false,
           "primaryKey": false,
           "unique": false
@@ -37,21 +37,21 @@
       "type": "Class",
       "uid": "o/tests/linked_nodes_1/0.1.0/class/class2",
       "label": "class2",
-      "description": null,
+      "description": "",
       "subClassOf": null,
       "propertySpecs": [
         {
           "ref": "o/tests/linked_nodes_1/0.1.0/property/a",
-          "minItems": 0,
-          "maxItems": 1,
+          "required": false,
+          "array": false,
           "index": false,
           "primaryKey": false,
           "unique": false
         },
         {
           "ref": "o/tests/linked_nodes_1/0.1.0/property/c",
-          "minItems": 0,
-          "maxItems": 1,
+          "required": false,
+          "array": false,
           "index": false,
           "primaryKey": false,
           "unique": false
@@ -62,29 +62,29 @@
       "type": "Class",
       "uid": "o/tests/linked_nodes_2/master/class/class3",
       "label": "class3",
-      "description": null,
+      "description": "",
       "subClassOf": null,
       "propertySpecs": [
         {
           "ref": "o/tests/linked_nodes_1/0.1.0/property/a",
-          "minItems": 0,
-          "maxItems": 1,
+          "required": false,
+          "array": false,
           "index": false,
           "primaryKey": false,
           "unique": false
         },
         {
           "ref": "o/tests/linked_nodes_2/master/property/c",
-          "minItems": 0,
-          "maxItems": 1,
+          "required": false,
+          "array": false,
           "index": false,
           "primaryKey": false,
           "unique": false
         },
         {
           "ref": "o/tests/linked_nodes_2/master/property/d",
-          "minItems": 0,
-          "maxItems": 1,
+          "required": false,
+          "array": false,
           "index": false,
           "primaryKey": false,
           "unique": false
@@ -95,21 +95,21 @@
       "type": "Class",
       "uid": "o/tests/linked_nodes_2/master/class/class4",
       "label": "class4",
-      "description": null,
+      "description": "",
       "subClassOf": null,
       "propertySpecs": [
         {
           "ref": "o/tests/linked_nodes_1/0.1.0/property/a",
-          "minItems": 0,
-          "maxItems": 1,
+          "required": false,
+          "array": false,
           "index": false,
           "primaryKey": false,
           "unique": false
         },
         {
           "ref": "o/tests/linked_nodes_2/master/property/e",
-          "minItems": 0,
-          "maxItems": 1,
+          "required": false,
+          "array": false,
           "index": false,
           "primaryKey": false,
           "unique": false
@@ -120,7 +120,7 @@
       "type": "Property",
       "uid": "o/tests/linked_nodes_1/0.1.0/property/a",
       "label": "a",
-      "description": null,
+      "description": "",
       "range": {
         "type": "Text"
       }
@@ -129,7 +129,7 @@
       "type": "Property",
       "uid": "o/tests/linked_nodes_1/0.1.0/property/b",
       "label": "b",
-      "description": null,
+      "description": "",
       "range": {
         "ref": "o/tests/linked_nodes_1/0.1.0/class/class1",
         "type": "LinkedClass"
@@ -139,7 +139,7 @@
       "type": "Property",
       "uid": "o/tests/linked_nodes_1/0.1.0/property/c",
       "label": "c",
-      "description": null,
+      "description": "",
       "range": {
         "ref": "o/tests/linked_nodes_1/0.1.0/class/class1",
         "type": "LinkedClass"
@@ -149,7 +149,7 @@
       "type": "Property",
       "uid": "o/tests/linked_nodes_2/master/property/c",
       "label": "c",
-      "description": null,
+      "description": "",
       "range": {
         "ref": "o/tests/linked_nodes_1/0.1.0/class/class2",
         "type": "LinkedClass"
@@ -159,7 +159,7 @@
       "type": "Property",
       "uid": "o/tests/linked_nodes_2/master/property/d",
       "label": "d",
-      "description": null,
+      "description": "",
       "range": {
         "ref": "o/tests/linked_nodes_2/master/class/class4",
         "type": "LinkedClass"
@@ -169,7 +169,7 @@
       "type": "Property",
       "uid": "o/tests/linked_nodes_2/master/property/e",
       "label": "e",
-      "description": null,
+      "description": "",
       "range": {
         "type": "Text"
       }

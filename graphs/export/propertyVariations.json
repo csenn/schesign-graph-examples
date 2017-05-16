@@ -16,216 +16,226 @@
       "propertySpecs": [
         {
           "ref": "o/tests/property_variations/master/property/a",
-          "minItems": 0,
-          "maxItems": 1,
+          "required": false,
+          "array": false,
           "index": false,
           "primaryKey": false,
           "unique": false
         },
         {
           "ref": "o/tests/property_variations/master/property/a1",
-          "minItems": 1,
-          "maxItems": null,
+          "required": true,
+          "array": false,
           "index": false,
           "primaryKey": false,
           "unique": false
         },
         {
           "ref": "o/tests/property_variations/master/property/a2",
-          "maxItems": 10,
-          "minItems": 5,
+          "array": true,
+          "required": false,
           "index": false,
           "primaryKey": false,
           "unique": false
         },
         {
           "ref": "o/tests/property_variations/master/property/a3",
-          "primaryKey": true,
-          "minItems": 0,
-          "maxItems": 1,
+          "array": true,
+          "minItems": 1,
+          "maxItems": 10,
+          "required": false,
           "index": false,
-          "unique": false
-        },
-        {
-          "ref": "o/tests/property_variations/master/property/a4",
-          "index": true,
-          "minItems": 0,
-          "maxItems": 1,
           "primaryKey": false,
           "unique": false
         },
         {
+          "ref": "o/tests/property_variations/master/property/a4",
+          "primaryKey": true,
+          "required": false,
+          "array": false,
+          "index": false,
+          "unique": false
+        },
+        {
           "ref": "o/tests/property_variations/master/property/a5",
+          "index": true,
+          "required": false,
+          "array": false,
+          "primaryKey": false,
+          "unique": false
+        },
+        {
+          "ref": "o/tests/property_variations/master/property/a6",
           "unique": true,
-          "minItems": 0,
-          "maxItems": 1,
+          "required": false,
+          "array": false,
           "index": false,
           "primaryKey": false
         },
         {
           "ref": "o/tests/property_variations/master/property/b",
-          "minItems": 0,
-          "maxItems": 1,
+          "required": false,
+          "array": false,
           "index": false,
           "primaryKey": false,
           "unique": false
         },
         {
           "ref": "o/tests/property_variations/master/property/b1",
-          "minItems": 0,
-          "maxItems": 1,
+          "required": false,
+          "array": false,
           "index": false,
           "primaryKey": false,
           "unique": false
         },
         {
           "ref": "o/tests/property_variations/master/property/b2",
-          "minItems": 0,
-          "maxItems": 1,
+          "required": false,
+          "array": false,
           "index": false,
           "primaryKey": false,
           "unique": false
         },
         {
           "ref": "o/tests/property_variations/master/property/b3",
-          "minItems": 0,
-          "maxItems": 1,
+          "required": false,
+          "array": false,
           "index": false,
           "primaryKey": false,
           "unique": false
         },
         {
           "ref": "o/tests/property_variations/master/property/b4",
-          "minItems": 0,
-          "maxItems": 1,
+          "required": false,
+          "array": false,
           "index": false,
           "primaryKey": false,
           "unique": false
         },
         {
           "ref": "o/tests/property_variations/master/property/b5",
-          "minItems": 0,
-          "maxItems": 1,
+          "required": false,
+          "array": false,
           "index": false,
           "primaryKey": false,
           "unique": false
         },
         {
           "ref": "o/tests/property_variations/master/property/c",
-          "minItems": 0,
-          "maxItems": 1,
+          "required": false,
+          "array": false,
           "index": false,
           "primaryKey": false,
           "unique": false
         },
         {
           "ref": "o/tests/property_variations/master/property/c1",
-          "minItems": 0,
-          "maxItems": 1,
+          "required": false,
+          "array": false,
           "index": false,
           "primaryKey": false,
           "unique": false
         },
         {
           "ref": "o/tests/property_variations/master/property/c2",
-          "minItems": 0,
-          "maxItems": 1,
+          "required": false,
+          "array": false,
           "index": false,
           "primaryKey": false,
           "unique": false
         },
         {
           "ref": "o/tests/property_variations/master/property/c3",
-          "minItems": 0,
-          "maxItems": 1,
+          "required": false,
+          "array": false,
           "index": false,
           "primaryKey": false,
           "unique": false
         },
         {
           "ref": "o/tests/property_variations/master/property/c4",
-          "minItems": 0,
-          "maxItems": 1,
+          "required": false,
+          "array": false,
           "index": false,
           "primaryKey": false,
           "unique": false
         },
         {
           "ref": "o/tests/property_variations/master/property/c5",
-          "minItems": 0,
-          "maxItems": 1,
+          "required": false,
+          "array": false,
           "index": false,
           "primaryKey": false,
           "unique": false
         },
         {
           "ref": "o/tests/property_variations/master/property/c6",
-          "minItems": 0,
-          "maxItems": 1,
+          "required": false,
+          "array": false,
           "index": false,
           "primaryKey": false,
           "unique": false
         },
         {
           "ref": "o/tests/property_variations/master/property/c7",
-          "minItems": 0,
-          "maxItems": 1,
+          "required": false,
+          "array": false,
           "index": false,
           "primaryKey": false,
           "unique": false
         },
         {
           "ref": "o/tests/property_variations/master/property/c8",
-          "minItems": 0,
-          "maxItems": 1,
+          "required": false,
+          "array": false,
           "index": false,
           "primaryKey": false,
           "unique": false
         },
         {
           "ref": "o/tests/property_variations/master/property/d",
-          "minItems": 0,
-          "maxItems": 1,
+          "required": false,
+          "array": false,
           "index": false,
           "primaryKey": false,
           "unique": false
         },
         {
           "ref": "o/tests/property_variations/master/property/e",
-          "minItems": 0,
-          "maxItems": 1,
+          "required": false,
+          "array": false,
           "index": false,
           "primaryKey": false,
           "unique": false
         },
         {
           "ref": "o/tests/property_variations/master/property/e1",
-          "minItems": 0,
-          "maxItems": 1,
+          "required": false,
+          "array": false,
           "index": false,
           "primaryKey": false,
           "unique": false
         },
         {
           "ref": "o/tests/property_variations/master/property/e2",
-          "minItems": 0,
-          "maxItems": 1,
+          "required": false,
+          "array": false,
           "index": false,
           "primaryKey": false,
           "unique": false
         },
         {
           "ref": "o/tests/property_variations/master/property/f",
-          "minItems": 0,
-          "maxItems": 1,
+          "required": false,
+          "array": false,
           "index": false,
           "primaryKey": false,
           "unique": false
         },
         {
           "ref": "o/tests/property_variations/master/property/g",
-          "minItems": 0,
-          "maxItems": 1,
+          "required": false,
+          "array": false,
           "index": false,
           "primaryKey": false,
           "unique": false
@@ -236,7 +246,7 @@
       "type": "Class",
       "uid": "o/tests/property_variations/master/class/class2",
       "label": "class2",
-      "description": null,
+      "description": "",
       "subClassOf": null,
       "propertySpecs": []
     },
@@ -244,7 +254,7 @@
       "type": "Property",
       "uid": "o/tests/property_variations/master/property/a",
       "label": "a",
-      "description": null,
+      "description": "",
       "range": {
         "type": "Boolean"
       }
@@ -253,7 +263,7 @@
       "type": "Property",
       "uid": "o/tests/property_variations/master/property/a1",
       "label": "a1",
-      "description": null,
+      "description": "",
       "range": {
         "type": "Boolean"
       }
@@ -262,7 +272,7 @@
       "type": "Property",
       "uid": "o/tests/property_variations/master/property/a2",
       "label": "a2",
-      "description": null,
+      "description": "",
       "range": {
         "type": "Boolean"
       }
@@ -271,7 +281,7 @@
       "type": "Property",
       "uid": "o/tests/property_variations/master/property/a3",
       "label": "a3",
-      "description": null,
+      "description": "",
       "range": {
         "type": "Boolean"
       }
@@ -280,7 +290,7 @@
       "type": "Property",
       "uid": "o/tests/property_variations/master/property/a4",
       "label": "a4",
-      "description": null,
+      "description": "",
       "range": {
         "type": "Boolean"
       }
@@ -289,7 +299,16 @@
       "type": "Property",
       "uid": "o/tests/property_variations/master/property/a5",
       "label": "a5",
-      "description": null,
+      "description": "",
+      "range": {
+        "type": "Boolean"
+      }
+    },
+    {
+      "type": "Property",
+      "uid": "o/tests/property_variations/master/property/a6",
+      "label": "a6",
+      "description": "",
       "range": {
         "type": "Boolean"
       }
@@ -298,7 +317,7 @@
       "type": "Property",
       "uid": "o/tests/property_variations/master/property/b",
       "label": "b",
-      "description": null,
+      "description": "",
       "range": {
         "type": "Text"
       }
@@ -307,7 +326,7 @@
       "type": "Property",
       "uid": "o/tests/property_variations/master/property/b1",
       "label": "b1",
-      "description": null,
+      "description": "",
       "range": {
         "regex": "[a-z]",
         "type": "Text"
@@ -317,7 +336,7 @@
       "type": "Property",
       "uid": "o/tests/property_variations/master/property/b2",
       "label": "b2",
-      "description": null,
+      "description": "",
       "range": {
         "maxLength": 10,
         "minLength": 0,
@@ -328,7 +347,7 @@
       "type": "Property",
       "uid": "o/tests/property_variations/master/property/b3",
       "label": "b3",
-      "description": null,
+      "description": "",
       "range": {
         "format": "Url",
         "type": "Text"
@@ -338,7 +357,7 @@
       "type": "Property",
       "uid": "o/tests/property_variations/master/property/b4",
       "label": "b4",
-      "description": null,
+      "description": "",
       "range": {
         "format": "Email",
         "type": "Text"
@@ -348,7 +367,7 @@
       "type": "Property",
       "uid": "o/tests/property_variations/master/property/b5",
       "label": "b5",
-      "description": null,
+      "description": "",
       "range": {
         "format": "Hostname",
         "type": "Text"
@@ -358,7 +377,7 @@
       "type": "Property",
       "uid": "o/tests/property_variations/master/property/c",
       "label": "c",
-      "description": null,
+      "description": "",
       "range": {
         "type": "Number"
       }
@@ -367,7 +386,7 @@
       "type": "Property",
       "uid": "o/tests/property_variations/master/property/c1",
       "label": "c1",
-      "description": null,
+      "description": "",
       "range": {
         "max": 10,
         "min": 0,
@@ -378,7 +397,7 @@
       "type": "Property",
       "uid": "o/tests/property_variations/master/property/c2",
       "label": "c2",
-      "description": null,
+      "description": "",
       "range": {
         "format": "Int",
         "type": "Number"
@@ -388,7 +407,7 @@
       "type": "Property",
       "uid": "o/tests/property_variations/master/property/c3",
       "label": "c3",
-      "description": null,
+      "description": "",
       "range": {
         "format": "Int8",
         "type": "Number"
@@ -398,7 +417,7 @@
       "type": "Property",
       "uid": "o/tests/property_variations/master/property/c4",
       "label": "c4",
-      "description": null,
+      "description": "",
       "range": {
         "format": "Int16",
         "type": "Number"
@@ -408,7 +427,7 @@
       "type": "Property",
       "uid": "o/tests/property_variations/master/property/c5",
       "label": "c5",
-      "description": null,
+      "description": "",
       "range": {
         "format": "Int32",
         "type": "Number"
@@ -418,7 +437,7 @@
       "type": "Property",
       "uid": "o/tests/property_variations/master/property/c6",
       "label": "c6",
-      "description": null,
+      "description": "",
       "range": {
         "format": "Int64",
         "type": "Number"
@@ -428,7 +447,7 @@
       "type": "Property",
       "uid": "o/tests/property_variations/master/property/c7",
       "label": "c7",
-      "description": null,
+      "description": "",
       "range": {
         "format": "Float32",
         "type": "Number"
@@ -438,7 +457,7 @@
       "type": "Property",
       "uid": "o/tests/property_variations/master/property/c8",
       "label": "c8",
-      "description": null,
+      "description": "",
       "range": {
         "format": "Float64",
         "type": "Number"
@@ -448,7 +467,7 @@
       "type": "Property",
       "uid": "o/tests/property_variations/master/property/d",
       "label": "d",
-      "description": null,
+      "description": "",
       "range": {
         "values": [
           "one",
@@ -463,7 +482,7 @@
       "type": "Property",
       "uid": "o/tests/property_variations/master/property/e",
       "label": "e",
-      "description": null,
+      "description": "",
       "range": {
         "format": "DateTime",
         "type": "Date"
@@ -473,7 +492,7 @@
       "type": "Property",
       "uid": "o/tests/property_variations/master/property/e1",
       "label": "e1",
-      "description": null,
+      "description": "",
       "range": {
         "format": "ShortDate",
         "type": "Date"
@@ -483,7 +502,7 @@
       "type": "Property",
       "uid": "o/tests/property_variations/master/property/e2",
       "label": "e2",
-      "description": null,
+      "description": "",
       "range": {
         "format": "Time",
         "type": "Date"
@@ -493,23 +512,23 @@
       "type": "Property",
       "uid": "o/tests/property_variations/master/property/f",
       "label": "f",
-      "description": null,
+      "description": "",
       "range": {
         "propertySpecs": [
           {
             "unique": false,
             "primaryKey": false,
             "index": false,
-            "maxItems": 1,
-            "minItems": 0,
+            "array": false,
+            "required": false,
             "ref": "o/tests/property_variations/master/property/a"
           },
           {
             "unique": false,
             "primaryKey": false,
             "index": false,
-            "maxItems": 1,
-            "minItems": 0,
+            "array": false,
+            "required": false,
             "ref": "o/tests/property_variations/master/property/f1"
           }
         ],
@@ -520,15 +539,15 @@
       "type": "Property",
       "uid": "o/tests/property_variations/master/property/f1",
       "label": "f1",
-      "description": null,
+      "description": "",
       "range": {
         "propertySpecs": [
           {
             "unique": false,
             "primaryKey": false,
             "index": false,
-            "maxItems": 1,
-            "minItems": 0,
+            "array": false,
+            "required": false,
             "ref": "o/tests/property_variations/master/property/a"
           }
         ],
@@ -539,7 +558,7 @@
       "type": "Property",
       "uid": "o/tests/property_variations/master/property/g",
       "label": "g",
-      "description": null,
+      "description": "",
       "range": {
         "ref": "o/tests/property_variations/master/class/class2",
         "type": "LinkedClass"

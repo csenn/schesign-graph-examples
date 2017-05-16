@@ -16,8 +16,8 @@
       "propertySpecs": [
         {
           "ref": "o/tests/basic/master/property/property_a",
-          "minItems": 0,
-          "maxItems": 1,
+          "required": false,
+          "array": false,
           "index": false,
           "primaryKey": false,
           "unique": false
@@ -28,7 +28,7 @@
       "type": "Property",
       "uid": "o/tests/basic/master/property/property_a",
       "label": "property_a",
-      "description": null,
+      "description": "",
       "range": {
         "type": "Text"
       }
@@ -37,7 +37,7 @@
       "type": "Property",
       "uid": "o/tests/basic/master/property/property_b",
       "label": "property_b",
-      "description": null,
+      "description": "",
       "range": {
         "type": "Boolean"
       }

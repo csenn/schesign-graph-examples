@@ -12,21 +12,21 @@
       "type": "Class",
       "uid": "o/tests/inheritance_chain_1/0.1.0/class/class1",
       "label": "class1",
-      "description": null,
+      "description": "",
       "subClassOf": null,
       "propertySpecs": [
         {
           "ref": "o/tests/inheritance_chain_1/0.1.0/property/a",
-          "minItems": 0,
-          "maxItems": 1,
+          "required": false,
+          "array": false,
           "index": false,
           "primaryKey": false,
           "unique": false
         },
         {
           "ref": "o/tests/inheritance_chain_1/0.1.0/property/a1",
-          "minItems": 0,
-          "maxItems": 1,
+          "required": false,
+          "array": false,
           "index": false,
           "primaryKey": false,
           "unique": false
@@ -37,13 +37,13 @@
       "type": "Class",
       "uid": "o/tests/inheritance_chain_1/0.1.0/class/class2",
       "label": "class2",
-      "description": null,
+      "description": "",
       "subClassOf": "o/tests/inheritance_chain_1/0.1.0/class/class1",
       "propertySpecs": [
         {
           "ref": "o/tests/inheritance_chain_1/0.1.0/property/b",
-          "minItems": 0,
-          "maxItems": 1,
+          "required": false,
+          "array": false,
           "index": false,
           "primaryKey": false,
           "unique": false
@@ -55,13 +55,13 @@
       "type": "Class",
       "uid": "o/tests/inheritance_chain_1/0.1.0/class/class3",
       "label": "class3",
-      "description": null,
+      "description": "",
       "subClassOf": "o/tests/inheritance_chain_1/0.1.0/class/class2",
       "propertySpecs": [
         {
           "ref": "o/tests/inheritance_chain_1/0.1.0/property/c",
-          "minItems": 0,
-          "maxItems": 1,
+          "required": false,
+          "array": false,
           "index": false,
           "primaryKey": false,
           "unique": false
@@ -73,21 +73,21 @@
       "type": "Class",
       "uid": "o/tests/inheritance_chain_2/master/class/class4",
       "label": "class4",
-      "description": null,
+      "description": "",
       "subClassOf": "o/tests/inheritance_chain_1/0.1.0/class/class3",
       "propertySpecs": [
         {
           "ref": "o/tests/inheritance_chain_2/master/property/d",
-          "minItems": 0,
-          "maxItems": 1,
+          "required": false,
+          "array": false,
           "index": false,
           "primaryKey": false,
           "unique": false
         },
         {
           "ref": "o/tests/inheritance_chain_2/master/property/a",
-          "minItems": 0,
-          "maxItems": 1,
+          "required": false,
+          "array": false,
           "index": false,
           "primaryKey": false,
           "unique": false
@@ -99,13 +99,13 @@
       "type": "Class",
       "uid": "o/tests/inheritance_chain_2/master/class/class5",
       "label": "class5",
-      "description": null,
+      "description": "",
       "subClassOf": "o/tests/inheritance_chain_2/master/class/class4",
       "propertySpecs": [
         {
           "ref": "o/tests/inheritance_chain_2/master/property/e",
-          "minItems": 0,
-          "maxItems": 1,
+          "required": false,
+          "array": false,
           "index": false,
           "primaryKey": false,
           "unique": false
@@ -117,7 +117,7 @@
       "type": "Property",
       "uid": "o/tests/inheritance_chain_1/0.1.0/property/a",
       "label": "a",
-      "description": null,
+      "description": "",
       "range": {
         "type": "Text"
       }
@@ -126,7 +126,7 @@
       "type": "Property",
       "uid": "o/tests/inheritance_chain_2/master/property/a",
       "label": "a",
-      "description": null,
+      "description": "",
       "range": {
         "type": "Boolean"
       }
@@ -135,7 +135,7 @@
       "type": "Property",
       "uid": "o/tests/inheritance_chain_1/0.1.0/property/a1",
       "label": "a1",
-      "description": null,
+      "description": "",
       "range": {
         "type": "Text"
       }
@@ -144,7 +144,7 @@
       "type": "Property",
       "uid": "o/tests/inheritance_chain_1/0.1.0/property/b",
       "label": "b",
-      "description": null,
+      "description": "",
       "range": {
         "type": "Text"
       }
@@ -153,7 +153,7 @@
       "type": "Property",
       "uid": "o/tests/inheritance_chain_1/0.1.0/property/c",
       "label": "c",
-      "description": null,
+      "description": "",
       "range": {
         "type": "Text"
       }
@@ -162,7 +162,7 @@
       "type": "Property",
       "uid": "o/tests/inheritance_chain_2/master/property/d",
       "label": "d",
-      "description": null,
+      "description": "",
       "range": {
         "type": "Text"
       }
@@ -171,7 +171,7 @@
       "type": "Property",
       "uid": "o/tests/inheritance_chain_2/master/property/e",
       "label": "e",
-      "description": null,
+      "description": "",
       "range": {
         "type": "Text"
       }
