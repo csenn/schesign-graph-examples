@@ -49,7 +49,9 @@
           "unique": false
         }
       ],
-      "excludeParentProperties": []
+      "excludeParentProperties": [
+        "o/tests/inheritance_chain_1/0.1.0/property/a1"
+      ]
     },
     {
       "type": "Class",
