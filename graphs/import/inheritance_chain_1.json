@@ -5,14 +5,18 @@
       "label": "class1",
       "propertySpecs": [
         { "ref": "a" },
-        { "ref": "a1" }
+        { "ref": "a1" },
+        { "ref": "a2" },
+        { "ref": "a3" }
       ]
     },
     {
       "type": "Class",
       "label": "class2",
       "subClassOf": "class1",
-      "excludeParentProperties": ["a1"],
+      "excludeParentProperties": [
+        "a1"
+      ],
       "propertySpecs": [
         { "ref": "b" }
       ]
@@ -21,6 +25,9 @@
       "type": "Class",
       "label": "class3",
       "subClassOf": "class2",
+      "excludeParentProperties": [
+        "a2"
+      ],
       "propertySpecs": [
         { "ref": "c" }
       ]
@@ -35,7 +42,17 @@
       "label": "a1",
       "range": { "type": "Text" }
     },
-     {
+    {
+      "type": "Property",
+      "label": "a2",
+      "range": { "type": "Text" }
+    },
+    {
+      "type": "Property",
+      "label": "a3",
+      "range": { "type": "Text" }
+    },
+    {
       "type": "Property",
       "label": "b",
       "range": { "type": "Text" }

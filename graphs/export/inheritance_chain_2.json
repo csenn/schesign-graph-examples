@@ -30,6 +30,22 @@
           "index": false,
           "primaryKey": false,
           "unique": false
+        },
+        {
+          "ref": "o/tests/inheritance_chain_1/0.1.0/property/a2",
+          "required": false,
+          "array": false,
+          "index": false,
+          "primaryKey": false,
+          "unique": false
+        },
+        {
+          "ref": "o/tests/inheritance_chain_1/0.1.0/property/a3",
+          "required": false,
+          "array": false,
+          "index": false,
+          "primaryKey": false,
+          "unique": false
         }
       ]
     },
@@ -69,7 +85,9 @@
           "unique": false
         }
       ],
-      "excludeParentProperties": []
+      "excludeParentProperties": [
+        "o/tests/inheritance_chain_1/0.1.0/property/a2"
+      ]
     },
     {
       "type": "Class",
@@ -95,7 +113,9 @@
           "unique": false
         }
       ],
-      "excludeParentProperties": []
+      "excludeParentProperties": [
+        "o/tests/inheritance_chain_1/0.1.0/property/a3"
+      ]
     },
     {
       "type": "Class",
@@ -137,6 +157,24 @@
       "type": "Property",
       "uid": "o/tests/inheritance_chain_1/0.1.0/property/a1",
       "label": "a1",
+      "description": "",
+      "range": {
+        "type": "Text"
+      }
+    },
+    {
+      "type": "Property",
+      "uid": "o/tests/inheritance_chain_1/0.1.0/property/a2",
+      "label": "a2",
+      "description": "",
+      "range": {
+        "type": "Text"
+      }
+    },
+    {
+      "type": "Property",
+      "uid": "o/tests/inheritance_chain_1/0.1.0/property/a3",
+      "label": "a3",
       "description": "",
       "range": {
         "type": "Text"

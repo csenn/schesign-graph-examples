@@ -4,6 +4,9 @@
       "type": "Class",
       "label": "class4",
       "subClassOf": "o/tests/inheritance_chain_1/0.1.0/class/class3",
+      "excludeParentProperties": [
+        "o/tests/inheritance_chain_1/0.1.0/property/a3"
+      ],
       "propertySpecs": [
         { "ref": "a" },
         { "ref": "d" }
