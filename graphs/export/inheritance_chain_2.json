@@ -93,7 +93,7 @@
           "index": false,
           "primaryKey": false,
           "unique": false
-        },
+        }
       ],
       "excludeParentProperties": []
     },
