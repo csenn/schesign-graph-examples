@@ -30,17 +30,17 @@
       "label": "property_a",
       "description": "",
       "range": {
+        "type": "NestedObject",
         "propertySpecs": [
           {
+            "ref": "o/tests/recursion/master/property/property_a",
             "unique": false,
             "primaryKey": false,
             "index": false,
             "array": false,
-            "required": false,
-            "ref": "o/tests/recursion/master/property/property_a"
+            "required": false
           }
-        ],
-        "type": "NestedObject"
+        ]
       }
     }
   ]

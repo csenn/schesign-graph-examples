@@ -2,9 +2,18 @@
    "graph": [
     {
       "type": "Class",
+      "uid": "o/tests/linked_nodes_1/0.1.0/class/class2"
+    },
+    {
+      "type": "Property",
+      "uid": "o/tests/linked_nodes_1/0.1.0/property/f"
+    },
+    {
+      "type": "Class",
       "label": "class3",
       "propertySpecs": [
         { "ref": "o/tests/linked_nodes_1/0.1.0/property/a" },
+        { "ref": "o/tests/linked_nodes_1/0.1.0/property/b" },
         { "ref": "c" },
         { "ref": "d" }
       ]
@@ -13,8 +22,7 @@
       "type": "Class",
       "label": "class4",
       "propertySpecs": [
-        { "ref": "o/tests/linked_nodes_1/0.1.0/property/a" },
-        { "ref": "e" }
+        { "ref": "o/tests/linked_nodes_1/0.1.0/property/f" }
       ]
     },
     {
@@ -22,18 +30,13 @@
       "label": "c",
       "range": {
         "type": "LinkedClass",
-        "ref": "o/tests/linked_nodes_1/0.1.0/class/class2"
+        "ref": "o/tests/linked_nodes_1/0.1.0/class/class1"
       }
     },
     {
       "type": "Property",
       "label": "d",
       "range": { "type": "LinkedClass", "ref": "class4" }
-    },
-    {
-      "type": "Property",
-      "label": "e",
-      "range":  { "type": "Text" }
     }
   ]
 }

@@ -60,6 +60,23 @@
     },
     {
       "type": "Class",
+      "uid": "o/tests/linked_nodes_1/0.1.0/class/class3",
+      "label": "class3",
+      "description": "",
+      "subClassOf": null,
+      "propertySpecs": [
+        {
+          "ref": "o/tests/linked_nodes_1/0.1.0/property/d",
+          "required": false,
+          "array": false,
+          "index": false,
+          "primaryKey": false,
+          "unique": false
+        }
+      ]
+    },
+    {
+      "type": "Class",
       "uid": "o/tests/linked_nodes_2/master/class/class3",
       "label": "class3",
       "description": "",
@@ -67,6 +84,14 @@
       "propertySpecs": [
         {
           "ref": "o/tests/linked_nodes_1/0.1.0/property/a",
+          "required": false,
+          "array": false,
+          "index": false,
+          "primaryKey": false,
+          "unique": false
+        },
+        {
+          "ref": "o/tests/linked_nodes_1/0.1.0/property/b",
           "required": false,
           "array": false,
           "index": false,
@@ -99,15 +124,7 @@
       "subClassOf": null,
       "propertySpecs": [
         {
-          "ref": "o/tests/linked_nodes_1/0.1.0/property/a",
-          "required": false,
-          "array": false,
-          "index": false,
-          "primaryKey": false,
-          "unique": false
-        },
-        {
-          "ref": "o/tests/linked_nodes_2/master/property/e",
+          "ref": "o/tests/linked_nodes_1/0.1.0/property/f",
           "required": false,
           "array": false,
           "index": false,
@@ -122,7 +139,8 @@
       "label": "a",
       "description": "",
       "range": {
-        "type": "Text"
+        "ref": "o/tests/linked_nodes_1/0.1.0/class/class1",
+        "type": "LinkedClass"
       }
     },
     {
@@ -131,8 +149,17 @@
       "label": "b",
       "description": "",
       "range": {
-        "ref": "o/tests/linked_nodes_1/0.1.0/class/class1",
-        "type": "LinkedClass"
+        "propertySpecs": [
+          {
+            "unique": false,
+            "primaryKey": false,
+            "index": false,
+            "array": false,
+            "required": false,
+            "ref": "o/tests/linked_nodes_1/0.1.0/property/e"
+          }
+        ],
+        "type": "NestedObject"
       }
     },
     {
@@ -141,8 +168,7 @@
       "label": "c",
       "description": "",
       "range": {
-        "ref": "o/tests/linked_nodes_1/0.1.0/class/class1",
-        "type": "LinkedClass"
+        "type": "Text"
       }
     },
     {
@@ -151,8 +177,17 @@
       "label": "c",
       "description": "",
       "range": {
-        "ref": "o/tests/linked_nodes_1/0.1.0/class/class2",
+        "ref": "o/tests/linked_nodes_1/0.1.0/class/class1",
         "type": "LinkedClass"
+      }
+    },
+    {
+      "type": "Property",
+      "uid": "o/tests/linked_nodes_1/0.1.0/property/d",
+      "label": "d",
+      "description": "",
+      "range": {
+        "type": "Text"
       }
     },
     {
@@ -167,11 +202,22 @@
     },
     {
       "type": "Property",
-      "uid": "o/tests/linked_nodes_2/master/property/e",
+      "uid": "o/tests/linked_nodes_1/0.1.0/property/e",
       "label": "e",
       "description": "",
       "range": {
-        "type": "Text"
+        "ref": "o/tests/linked_nodes_1/0.1.0/class/class2",
+        "type": "LinkedClass"
+      }
+    },
+    {
+      "type": "Property",
+      "uid": "o/tests/linked_nodes_1/0.1.0/property/f",
+      "label": "f",
+      "description": "",
+      "range": {
+        "ref": "o/tests/linked_nodes_1/0.1.0/class/class3",
+        "type": "LinkedClass"
       }
     }
   ]
